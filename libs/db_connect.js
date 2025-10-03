@@ -1,17 +1,20 @@
-var mongoose = require('mongoose')
-  , single_connection
-  , env_url = {
-    "test": "mongodb://localhost/ntalk_test",
-    "development": "mongodb://localhost/ntalk"
-  }
-;
+// libs/db_connection.js
+const mongoose = require('mongoose');
 
-module.exports = function() {  
-  var url = env_url[process.env.NODE_ENV];
-  
-  if(!single_connection) {
-    single_connection = mongoose.connect(url);
+const env_url = {
+  "test": "mongodb://localhost/ntalk_test",
+  "development": "mongodb://localhost/ntalk"
+};
+
+let connection;
+
+module.exports = function() {
+  if (!connection) {
+    const url =  env_url['development'];
+    connection = mongoose.createConnection(url, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true
+    });
   }
-  
-  return single_connection;
+  return connection;
 };

@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: development
+      REDIS_URL: redis://redis:6379
+      MONGO_URL: mongodb://mongo:27017/ntalk
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+      - mongo
+
+  redis:
+    image: redis:6-alpine
+    ports:
+      - "6379:6379"
+
+  mongo:
+    image: mongo:4.4-bionic
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+
+volumes:
+  mongo_data:

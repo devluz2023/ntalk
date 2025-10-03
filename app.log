@@ -1,1 +1,410 @@
+Error: Cannot find module '../build/Release/bson'
+Require stack:
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js:15:10)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js'
+  ]
+}
+Ntalk no ar.
+Error: Cannot find module '../build/Release/bson'
+Require stack:
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js:15:10)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js'
+  ]
+}
+Ntalk no ar.
+Error: Cannot find module '../build/Release/bson'
+Require stack:
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js:15:10)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js'
+  ]
+}
+Ntalk no ar.
+Error: Cannot find module '../build/Release/bson'
+Require stack:
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js:15:10)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js'
+  ]
+}
+Ntalk no ar.
+Error: Cannot find module '../build/Release/bson'
+Require stack:
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js:15:10)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js'
+  ]
+}
+Ntalk no ar.
+Error: Cannot find module '../build/Release/bson'
+Require stack:
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js:15:10)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js'
+  ]
+}
+Ntalk no ar.
+Error: Cannot find module '../build/Release/bson'
+Require stack:
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js:15:10)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js'
+  ]
+}
+Ntalk no ar.
+Error: Cannot find module '../build/Release/bson'
+Require stack:
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js:15:10)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js'
+  ]
+}
+Ntalk no ar.
+Error: Cannot find module '../build/Release/bson'
+Require stack:
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js:15:10)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js'
+  ]
+}
+Ntalk no ar.
+Error: Cannot find module '../build/Release/bson'
+Require stack:
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js
+- /Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1028:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:873:27)
+    at Module.require (node:internal/modules/cjs/loader:1100:19)
+    at require (node:internal/modules/cjs/helpers:119:18)
+    at Object.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js:15:10)
+    at Module._compile (node:internal/modules/cjs/loader:1198:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1252:10)
+    at Module.load (node:internal/modules/cjs/loader:1076:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:911:12)
+    at Module.require (node:internal/modules/cjs/loader:1100:19) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/ext/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/bson/lib/bson/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/utils.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/schema.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/libs/db_connect.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/models/usuario.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/lib/express-load.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/express-load/index.js',
+    '/Users/fabiojuliodaluz/Documents/GitHub/ntalk/app.js'
+  ]
+}
 Ntalk no ar.

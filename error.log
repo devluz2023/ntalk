@@ -1,0 +1,220 @@
+js-bson: Failed to load c++ bson extension, using pure JS version
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: failed to connect to [undefined:27017]
+    at exports.ConnectionPool.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/server.js:556:25)
+    at exports.ConnectionPool.emit (node:events:513:28)
+    at exports.Connection.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:156:15)
+    at exports.Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection.js:534:10)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on NativeConnection instance at:
+    at NativeConnection.Connection.error (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:389:8)
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:416:14
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:57:21
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:286:18
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:365:7
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+js-bson: Failed to load c++ bson extension, using pure JS version
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: failed to connect to [undefined:27017]
+    at exports.ConnectionPool.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/server.js:556:25)
+    at exports.ConnectionPool.emit (node:events:513:28)
+    at exports.Connection.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:156:15)
+    at exports.Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection.js:534:10)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on NativeConnection instance at:
+    at NativeConnection.Connection.error (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:389:8)
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:416:14
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:57:21
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:286:18
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:365:7
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+js-bson: Failed to load c++ bson extension, using pure JS version
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: failed to connect to [undefined:27017]
+    at exports.ConnectionPool.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/server.js:556:25)
+    at exports.ConnectionPool.emit (node:events:513:28)
+    at exports.Connection.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:156:15)
+    at exports.Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection.js:534:10)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on NativeConnection instance at:
+    at NativeConnection.Connection.error (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:389:8)
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:416:14
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:57:21
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:286:18
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:365:7
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+js-bson: Failed to load c++ bson extension, using pure JS version
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: failed to connect to [undefined:27017]
+    at exports.ConnectionPool.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/server.js:556:25)
+    at exports.ConnectionPool.emit (node:events:513:28)
+    at exports.Connection.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:156:15)
+    at exports.Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection.js:534:10)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on NativeConnection instance at:
+    at NativeConnection.Connection.error (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:389:8)
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:416:14
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:57:21
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:286:18
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:365:7
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+js-bson: Failed to load c++ bson extension, using pure JS version
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: failed to connect to [undefined:27017]
+    at exports.ConnectionPool.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/server.js:556:25)
+    at exports.ConnectionPool.emit (node:events:513:28)
+    at exports.Connection.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:156:15)
+    at exports.Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection.js:534:10)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on NativeConnection instance at:
+    at NativeConnection.Connection.error (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:389:8)
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:416:14
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:57:21
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:286:18
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:365:7
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+js-bson: Failed to load c++ bson extension, using pure JS version
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: failed to connect to [undefined:27017]
+    at exports.ConnectionPool.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/server.js:556:25)
+    at exports.ConnectionPool.emit (node:events:513:28)
+    at exports.Connection.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:156:15)
+    at exports.Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection.js:534:10)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on NativeConnection instance at:
+    at NativeConnection.Connection.error (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:389:8)
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:416:14
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:57:21
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:286:18
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:365:7
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+js-bson: Failed to load c++ bson extension, using pure JS version
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: failed to connect to [undefined:27017]
+    at exports.ConnectionPool.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/server.js:556:25)
+    at exports.ConnectionPool.emit (node:events:513:28)
+    at exports.Connection.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:156:15)
+    at exports.Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection.js:534:10)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on NativeConnection instance at:
+    at NativeConnection.Connection.error (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:389:8)
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:416:14
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:57:21
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:286:18
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:365:7
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+js-bson: Failed to load c++ bson extension, using pure JS version
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: failed to connect to [undefined:27017]
+    at exports.ConnectionPool.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/server.js:556:25)
+    at exports.ConnectionPool.emit (node:events:513:28)
+    at exports.Connection.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:156:15)
+    at exports.Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection.js:534:10)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on NativeConnection instance at:
+    at NativeConnection.Connection.error (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:389:8)
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:416:14
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:57:21
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:286:18
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:365:7
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+js-bson: Failed to load c++ bson extension, using pure JS version
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: failed to connect to [undefined:27017]
+    at exports.ConnectionPool.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/server.js:556:25)
+    at exports.ConnectionPool.emit (node:events:513:28)
+    at exports.Connection.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:156:15)
+    at exports.Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection.js:534:10)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on NativeConnection instance at:
+    at NativeConnection.Connection.error (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:389:8)
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:416:14
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:57:21
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:286:18
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:365:7
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+js-bson: Failed to load c++ bson extension, using pure JS version
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: failed to connect to [undefined:27017]
+    at exports.ConnectionPool.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/server.js:556:25)
+    at exports.ConnectionPool.emit (node:events:513:28)
+    at exports.Connection.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection_pool.js:156:15)
+    at exports.Connection.emit (node:events:513:28)
+    at Socket.<anonymous> (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/connection/connection.js:534:10)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:157:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:122:3)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21)
+Emitted 'error' event on NativeConnection instance at:
+    at NativeConnection.Connection.error (/Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:389:8)
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/connection.js:416:14
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:57:21
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:286:18
+    at /Users/fabiojuliodaluz/Documents/GitHub/ntalk/node_modules/mongodb/lib/mongodb/db.js:365:7
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)

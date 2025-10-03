@@ -1,17 +1,7 @@
-var forever = require('forever-monitor');
-var Monitor = forever.Monitor;
+const app = require('./app'); // Your main express app file
 
-var child = new Monitor('app.js', {
-  max: 10,
-  silent: false,
-  killTree: true,
-  logFile: 'forever.log',
-  outFile: 'app.log',
-  errFile: 'error.log'
+const port = process.env.PORT || 30001;
+
+app.listen(port, () => {
+  console.log(`Ntalk is running on port ${port}`);
 });
-
-child.on('exit', function () {
-  console.log('O server foi finalizado.');
-});
-
-child.start();
