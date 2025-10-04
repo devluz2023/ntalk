@@ -1,37 +1,50 @@
-module.exports = function(app) {
+module.exports = function (app) {
 
   var Usuario = app.models.usuario;
 
   var HomeController = {
 
-    
-    index: function(req, res) {
+    index: function (req, res) {
       res.render('home/index');
     },
 
-    login: function(req, res) {
-      var query = {email: req.body.usuario.email};
-      Usuario.findOne(query)
-             .select('nome email')
-             .exec(function(erro, usuario){
-        if (usuario) {
-          req.session.usuario = usuario;
-          res.redirect('/contatos');
-        
-        } else {
-          Usuario.create(req.body.usuario, function(erro, usuario) {
-            if(erro){
-              res.redirect('/');
-            }else{
-              req.session.usuario = usuario;
-              res.redirect('/contatos');
-            }
-          });
-        }
-      });
-    },
 
-    logout: function(req, res) {
+    login: function (req, res) {
+      try {
+        const email = req.body.usuario.email;
+        const query = { email };
+        const usuario = Usuario.findOne(query).select('nome email');
+
+        if (usuario.id) {
+
+          req.session.usuario = {
+            _id: usuario._id,
+            nome: usuario.nome,
+            email: usuario.email
+          };
+          res.redirect('/contatos');
+        } else {
+
+          const novoUsuario = new Usuario(req.body.usuario);
+          novoUsuario.save();
+
+
+          req.session.usuario = {
+            _id: novoUsuario._id,
+            nome: novoUsuario.nome,
+            email: novoUsuario.email
+          };
+          res.redirect('/contatos');
+        }
+      } catch (erro) {
+        console.error('Erro no login:', erro);
+        res.redirect('/');
+      }
+    }
+
+    ,
+
+    logout: function (req, res) {
       req.session.destroy();
       res.redirect('/');
     }
