@@ -1,3 +1,4 @@
+
 module.exports = function (app) {
 
   var Usuario = app.models.usuario;
@@ -9,24 +10,24 @@ module.exports = function (app) {
     },
 
 
-    login: function (req, res) {
+    login:  async function (req, res) {
       try {
         const email = req.body.usuario.email;
         const query = { email };
-        const usuario = Usuario.findOne(query).select('nome email');
-
-        if (usuario.id) {
+        const usuario =  await Usuario.findOne(query).select('id nome email').exec();;
+       
+        if (usuario) {
 
           req.session.usuario = {
             _id: usuario._id,
             nome: usuario.nome,
             email: usuario.email
           };
-          res.redirect('/contatos');
+          await res.redirect('/contatos');
         } else {
 
           const novoUsuario = new Usuario(req.body.usuario);
-          novoUsuario.save();
+          await novoUsuario.save();
 
 
           req.session.usuario = {
@@ -35,6 +36,7 @@ module.exports = function (app) {
             email: novoUsuario.email
           };
           res.redirect('/contatos');
+
         }
       } catch (erro) {
         console.error('Erro no login:', erro);
